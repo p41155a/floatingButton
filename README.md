@@ -2,17 +2,15 @@
 
 저는 스크롤을 아래로 내리면 floating이 닫히고 올리면 floating이 열리는
 
-아래와 같은 모양의 floating Button을 만들어야 했습니다.  
+아래와 같은 모양의 floating Button을 만들어야 했습니다. 
 
-  
+
 
 floatingButton을 만드는 방법은 stackView를 사용하는 것입니다.
 
 
 
-
-
-## 💡 stackView란?
+#### 💡 stackView란?
 
 **UIStackView** 는 iOS 9에서 나온 개념으로 여러 개의 View를 한 셋트로 만들어주는 역할을 하는 View입니다. 그래서 항상 StackView 안에는 몇 개의 View 들이 있는데, 이를 **arrangedSubViews** 라고 합니다. 이 subView들은 일정한 규칙에 따라 StackView 안에서 배치됩니다
 
@@ -42,8 +40,7 @@ stackView는 **addArrangedSubview** 를 통하여 화면에 추가 시키면 됩
 
 
 
-
-## **⚠️ 일반적인 floatingButton과 차이점**
+#### **⚠️ 일반적인 floatingButton과 차이점**
 
 1. 동그라미와 아래 배경이 붙어있는 형태
 2. floating버튼이 하나의 버튼으로 작동해야함
@@ -52,8 +49,7 @@ stackView는 **addArrangedSubview** 를 통하여 화면에 추가 시키면 됩
 
 
 
-
-## 💄레이아웃
+#### 💄레이아웃
 
 위와 같은 형태의 floating Button을 만들기 위해 제가 만든 레이아웃입니다.
 
@@ -71,4 +67,4 @@ stackView는 **addArrangedSubview** 를 통하여 화면에 추가 시키면 됩
 
 
 
-[블로그 포스팅](
+[블로그 포스팅](https://blog.naver.com/p41155a/221986204281)

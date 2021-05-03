@@ -4,13 +4,14 @@
 
 아래와 같은 모양의 floating Button을 만들어야 했습니다.  
 
-#
+  
 
 floatingButton을 만드는 방법은 stackView를 사용하는 것입니다.
 
 
 
 ## 💡 stackView란?
+  
 
 **UIStackView** 는 iOS 9에서 나온 개념으로 여러 개의 View를 한 셋트로 만들어주는 역할을 하는 View입니다. 그래서 항상 StackView 안에는 몇 개의 View 들이 있는데, 이를 **arrangedSubViews** 라고 합니다. 이 subView들은 일정한 규칙에 따라 StackView 안에서 배치됩니다
 
@@ -38,7 +39,7 @@ text, sideview를 hidden 해줌에 따라 **이미지 넓이만 남게 되는 �
 
 stackView는 **addArrangedSubview** 를 통하여 화면에 추가 시키면 됩니다.
 
-
+  
 
 ## **⚠️ 일반적인 floatingButton과 차이점**
 
@@ -47,7 +48,7 @@ stackView는 **addArrangedSubview** 를 통하여 화면에 추가 시키면 됩
 
 <img src="https://user-images.githubusercontent.com/50395024/116844130-2cc3f180-ac1d-11eb-89e5-bcf40f1c7811.png" width="150">
 
-
+  
 ## 💄레이아웃
 
 위와 같은 형태의 floating Button을 만들기 위해 제가 만든 레이아웃입니다.

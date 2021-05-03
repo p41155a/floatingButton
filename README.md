@@ -9,6 +9,7 @@
 floatingButton을 만드는 방법은 stackView를 사용하는 것입니다.
 
 
+<br/><br/>
 
 ## 💡 stackView란?
 
@@ -39,6 +40,7 @@ text, sideview를 hidden 해줌에 따라 **이미지 넓이만 남게 되는 �
 stackView는 **addArrangedSubview** 를 통하여 화면에 추가 시키면 됩니다.
 
 
+<br/><br/>
 
 ## **⚠️ 일반적인 floatingButton과 차이점**
 
@@ -48,6 +50,7 @@ stackView는 **addArrangedSubview** 를 통하여 화면에 추가 시키면 됩
 <img src="https://user-images.githubusercontent.com/50395024/116844130-2cc3f180-ac1d-11eb-89e5-bcf40f1c7811.png" width="150">
 
 
+<br/><br/>
 
 ## 💄레이아웃
 
